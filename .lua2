@@ -125,3 +125,28 @@ local Button = MainTab:CreateButton({
   loadstring(game:HttpGet("https://api.ssgontop.shop/xdayoungxhub"))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "배드워즈",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/new-qwertyui/CatV5/refs/heads/main/init.lua'), 'init.lua')()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "잉크게임",
+   Callback = function()
+   shared.CustomCommit = "8dd5a2e401a7624d73c2fbf1cd3376ff9d363b89"
+   shared.TestingMode = true
+   shared.StagingMode = true
+   shared.BYPASS_VW_PROTECTION = true
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "음악",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/Dan41/Roblox-Scripts/refs/heads/main/Youtube%20Music%20Player/YoutubeMusicPlayer.lua'),true))()
+   end,
+})
