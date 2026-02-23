@@ -111,3 +111,10 @@ local Button = MainTab:CreateButton({
   loadstring(game:HttpGet('https://raw.githubusercontent.com/pudong8452/test_case_h/main/Ray_Free'))() 
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "찐 ㄹㅈㄷ 라이벌",
+   Callback = function()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-KEYLESS-QUAIL-BEST-Universal-Aimbot-ESP-40-Features-117371"))()
+   end,
+})
