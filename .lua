@@ -70,31 +70,28 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local rivalTab = Window:CreateTab("라이벌", nil) -- Title, Image
-local rivalSection = Tab:CreateSection("라이벌")
-
-local Button = rivalTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "z3us",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/blackowl1231/Z3US/refs/heads/main/main.lua"))()
    end,
 })
 
-local Button = rivalTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "마빡툰rival",
    Callback = function()
    loadstring( game:HttpGet('https://raw.githubusercontent.com/Chris5313/riavls_script/refs/heads/main/Rivals_v2.lua' ))()
    end,
 })
 
-local Button = rivalTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Zephyr-V2(고장?)",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealAvrwm/Zephyr-V2/refs/heads/main/script.lua", true))()
    end,
 })
 
-local Button = rivalTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "ㄹㅈㄷ라이벌(키 필요)",
    Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Vexilus-Labs-74539"))()
